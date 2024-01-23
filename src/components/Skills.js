@@ -3,8 +3,7 @@ import 'react-multi-carousel/lib/styles.css';
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
+
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -36,19 +35,19 @@ export const Skills = () => {
                             <p>Hi Put something here</p>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                     <div className="item">
-                                        <img src={meter1} alt="Image" />
+                                        <img src={meter1} alt="m1" />
                                         <h5>Web Development</h5>
                                     </div>
                                     <div className="item">
-                                        <img src={meter2} alt="Image" />
+                                        <img src={meter2} alt="m2" />
                                         <h5>Brand Identity</h5>
                                     </div>
                                     <div className="item">
-                                        <img src={meter3} alt="Image" />
+                                        <img src={meter3} alt="m3" />
                                         <h5>Logo Design</h5>
                                     </div>
                                     <div className="item">
-                                        <img src={meter1} alt="Image" />
+                                        <img src={meter1} alt="m4" />
                                         <h5>Web Development</h5>
                                     </div>
                                 </Carousel>
@@ -56,7 +55,7 @@ export const Skills = () => {
                     </div>  
                 </div>
             </div>
-            <img className="background-image-left" src={colorSharp} alt="Image" />
+            <img className="background-image-left" src={colorSharp} alt="m5" />
         </section>
     );
     
