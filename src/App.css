@@ -91,14 +91,14 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color:#ff004d;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
-  color: #fff !important;
+  color: #ebde29 !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
@@ -112,6 +112,8 @@ span.navbar-text {
     display: flex;
     align-items: center;
 }
+
+
 .social-icon {
     display: inline-block;
     margin-left: 14px;
@@ -119,7 +121,7 @@ span.navbar-text {
 .social-icon a {
     width: 62px;
     height: 62px;
-    background: rgba(217, 217, 217, 0.1);
+    background:#b5ab1f;
     display: inline-flex;
     border-radius: 50%;
     margin-right: 6px;
@@ -149,9 +151,12 @@ span.navbar-text {
 .social-icon a:hover img {
 	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
+
+
+
 .navbar-text button {
   font-weight: 700;
-  color: #fff;
+  color: #b5ab1f;
   border: 1px solid #fff;
   padding: 18px 34px;
   font-size: 18px;
@@ -168,14 +173,14 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  background-color: #fff;
+  background-color: #b5ab1f;
   left: 0;
   top: 0;
   z-index: -1;
   transition: 0.3s ease-in-out;
 }
 .navbar-text button:hover {
-  color: #121212;
+  color: #ffffff;
 }
 .navbar-text button:hover::before {
 	content: "";
@@ -236,7 +241,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  background-image: url('./assets/img/b4.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -245,8 +250,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: linear-gradient(90.21deg, #7e2553 -5.91%, #ff004d 111.58%);
+  border: 1px solid #b5ab1f;
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
@@ -258,9 +263,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+  color: #b5ab1f;
 }
 .banner p {
-  color: #B8B8B8;
+  color: #ebde29;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -274,6 +280,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+  color: #b5ab1f;
 }
 .banner button svg {
   font-size: 25px;

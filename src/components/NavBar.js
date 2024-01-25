@@ -31,7 +31,7 @@ export const NavBar = () => {
     return(
         <Navbar  expand="lg" className={scrolled ? "scrolled":""}>
             <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                
                     <img src={logo} alt="Logo" />
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className="navbar-toggler-icon"></span>

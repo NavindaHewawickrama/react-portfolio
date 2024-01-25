@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from 'C:/Users/hewaw/OneDrive/Desktop/Portfolio/my-portfolio/src/assets/img/header-img.svg';
+import headerImg from 'C:/Users/hewaw/OneDrive/Desktop/Portfolio/my-portfolio/src/assets/img/avatar.png';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Web Developer", "Web Designer", "Freelancer"];
+  const toRotate = ["Web Developer", "Cybersecurity Enthusiast", "Freelancer"];
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
@@ -47,13 +47,14 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Welcome to my portfolio</span>
-            <h1>{`Hi I'm webdecoded `}<span className='wrap'>{text}</span></h1>
-            <p>Hi My Name Is Navinda</p>
+            <span className="tagline">Welcome !!</span>
+            <h1>{`Hi I'm Navinda `}<span className='wrap'><br></br>{text}</span></h1>
+            <p>My name is Navinda Hewawickrama. I am undergraduate at the University of Ruhuna studying Computer Science for my bachelors.</p>
+            <p>I am currently in my third year. I am passionate about Cyber Security, AI, NLP and web development</p>
             <button onClick={() => console.log('connect')}>Let's connect<ArrowRightCircle size={25} /></button>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={headerImg} alt="Header-img" />
+          <img src={headerImg} alt="Header-img" style={{ height: '400px', width: '400px' }} />
           </Col>
         </Row>
       </Container>
