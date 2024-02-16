@@ -4,7 +4,7 @@ import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 
-import colorSharp from "../assets/img/color-sharp.png"
+//import colorSharp from "../assets/img/bgpic2.jpg"
 
 export const Skills = () => {
     const responsive ={
@@ -43,11 +43,11 @@ export const Skills = () => {
                                         <h5>Cyber Security</h5>
                                     </div>
                                     <div className="item">
-                                        <img src={meter3} alt="m3" />
-                                        <h5>Logo Design</h5>
+                                        <img src={meter1} alt="m3" />
+                                        <h5>Machine Learning</h5>
                                     </div>
                                     <div className="item">
-                                        <img src={meter1} alt="m4" />
+                                        <img src={meter3} alt="m4" />
                                         <h5>Essay Writing</h5>
                                     </div>
                                 </Carousel>
@@ -55,7 +55,7 @@ export const Skills = () => {
                     </div>  
                 </div>
             </div>
-            <img className="background-image-left" src={colorSharp} alt="m5" />
+            <div className="background-image-left" ></div>
         </section>
     );
     

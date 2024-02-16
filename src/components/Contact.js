@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import contactImg from '../assets/img/contact-img.svg';
+//import contactImg from '../assets/img/contact-img.svg';
 
 export const Contact = () => {
     const formInitialDetails = {
@@ -36,7 +36,7 @@ export const Contact = () => {
         let result = await response.json();
         setFormDetails(formInitialDetails);
         if(result.code === 200){
-            setStatus({ success: true, message: 'Message setn successfully'});
+            setStatus({ success: true, message: 'Message sent successfully'});
         }else{
             setStatus({ succes: false, message: 'Something went wrong, please try again later.'});
         }
@@ -47,7 +47,7 @@ export const Contact = () => {
                 <Container>
                     <Row className="align-items-center">
                         <Col md={6}>
-                            <img src={contactImg} alt="contact" />
+                            {/*<img src={contactImg} alt="contact" />*/}
                         </Col>
                         <Col md={6}>
                             <h2>

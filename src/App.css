@@ -91,7 +91,8 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color:#ff004d;
+  background-color:#000;
+  opacity: 80%;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -236,22 +237,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /******************************************/
 
-/***BAnner css*/
+/***Banner css*/
 
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/b4.jpg');
+  /*background-image: url('./assets/img/b4.jpg');*/
+  background-color: #0000007b;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .banner .tagline {
+  text-align: justify;
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, #7e2553 -5.91%, #ff004d 111.58%);
-  border: 1px solid #b5ab1f;
+  /*background: #fcfcfc;
+  border: 1px solid #ffffff;*/
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
@@ -355,7 +358,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #1e2b53;
+  background: #1d1c1c;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -388,11 +391,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto 15px auto;
 }
 .background-image-left {
-  top: 28%;
+  top: 0;
   position: absolute;
   bottom: 0;
-  width: 40%;
+  width: 100%;
   z-index: -4;
+  background-color: #181401;
 }
 
 /*****************Project css ****************/
@@ -444,7 +448,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
   width: 0;
   height: 100%;
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: #b5ab1f;
   top: 0;
   left: 0;
   z-index: -1;
@@ -476,10 +480,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: #b5ab1f;
   opacity: 0.85;
   position: absolute;
-  width: 100%;
+  width: 100vw;
   height: 0;
   transition: 0.4s ease-in-out;
 }
@@ -523,7 +527,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /**************Conatct css ***************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: #ff004d;
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -654,7 +658,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 15px;
 }
 .new-email-bx button {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #ff004d -5.91%, #b5ab1f 111.58%);
   padding: 20px 65px;
   color: #fff;
   font-weight: 500;
